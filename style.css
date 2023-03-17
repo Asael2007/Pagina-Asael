@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'poppins',sans-serif;
+
+}
+
+.header {
+    background-image: url(images/Gato8.png);
+    background-repeat: no-repeat;
+    background-position: cente bottom;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #6723B0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 16px;
+    color: #515151;
+    margin-bottom: 35px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    }
+    .menu .navbar ul li{
+        font-size: 20px;
+        padding: 22px;
+        display: block;
+
+    }
+    #menu{
+        display: none;
+
+    }
+    .menu label{
+        cursor: pointer;
+        display: none;
+
+    }
+    .header-content{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 150px 0 100px 0;
+
+    }
+    .header-txt{
+        width: 20%;
+
+    }
+    .header-txt{
+        font-size: 120px;
+    }
+    li{
+        font-size: 25px;
+        margin-bottom: 15px;
+
+    }
+    .header-img{
+        width: 80%;
+        text-align: right;
+    }
+    .header-img img{
+        width: 800px;
+
+    }
+
+    .sec-1{
+
+    padding: 100px;
+    display: flex;
+    width: 100%;
+    }
+
+    h2{
+        font-size: 90px;
+
+    }
+    .sec-img{
+        width: 80%;
+
+    }
+    .sec-img img{
+        width: 800px;
+
+    }
+    .sec-txt{
+        width: 20%;
+
+    }
+    .sec-2{
+        text-align: right;
+
+    }
+    .footer{
+        padding: 100px 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .footer h3{
+        font-size: 25px;
+        margin-bottom: 15px;
+
+    }
+    .footer a{
+        font-size: 20px;
+        
+    }
